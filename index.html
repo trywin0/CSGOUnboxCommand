@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSGO Command</title>
+    <link rel="shortcut icon" href="https://img.c3dt.com/UmZnSU9FcEMyemlmUzNOR2taTyt6dz09=w200" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="m-5">
+        <h1>CS:GO Fake Unboxing</h1>
+    <div class="inputs">
+        <div class="input-group mb-3 w-50 m-4">
+            <span class="input-group-text" id="addon-wrapping">Username</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+    
+    <div class="input-group mb-3 w-50 m-4">
+        <span class="input-group-text" id="addon-wrapping">Weapon name</span>
+        <input type="text" class="form-control" placeholder="Karambit" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+
+    <div class="input-group mb-3 w-50 m-4">
+        <span class="input-group-text" id="addon-wrapping">Skin name</span>
+        <input type="text" class="form-control" placeholder="Doppler" aria-label="Username" aria-describedby="addon-wrapping">
+    </div>
+    <div class="btn-group mb-3 m-4" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+        <label class="btn btn-outline-success" for="btncheck1">Star</label>
+    </div>
+    <div class="btn-group mb-3 m-4" role="group" aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+        <label class="btn btn-outline-success" for="btncheck2">StatTrak™️</label>
+    </div>
+
+    <div class="input-group mb-3 m-4 w-50">
+        <label class="input-group-text" for="inputGroupSelect01">Weapon color</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option value="1" selected>Team color</option>
+          <option value="2">White</option>
+          <option value="3">Red</option>
+          <option value="4">Green</option>
+          <option value="5">Light green</option>
+          <option value="6">Money awards green</option>
+          <option value="7">Light red</option>
+          <option value="8">Light red 2</option>
+          <option value="9">CT color</option>
+          <option value="10">T color</option>
+          <option value="11">Light blue</option>
+          <option value="12">Blue</option>
+          <option value="13">Violet</option>
+        </select>
+    </div>
+    </div>
+    <div class="preview m-4 ms-5 bg-dark text-light border w-75 pt-3 ps-4 fw-bold">
+        <p class="username"></p>
+        <p>has opened a container and found:</p>
+        <div class="preview textcolor">
+            <p class="star"></p>
+            <p class="weapon"></p>
+            <p>|</p>
+            <p class="skin"></p>
+        </div>
+
+        
+    </div>
+    <div class="input-group mb-3 w-50  m-4">
+        <input readonly type="text" id="output" class="form-control"  aria-describedby="button-addon2">
+        <button class="btn btn-success text-white copybtn" type="button" id="button-addon2">Copy</button>
+    </div>
+    <footer class="position-absolute bottom-0 start-50 translate-middle">Copyright &copy; Trywin 2021</footer>
+</body>
+<script src="script.js"></script>
+</html>
