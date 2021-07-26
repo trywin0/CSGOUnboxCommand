@@ -69,7 +69,7 @@ function updateText(){
     star.innerText = data.star?"⋆":""
     weaponOutput.innerText = (data.stattrak?"StatTrak™️ ":"")+(data.weapon||"")
     skinOutput.innerText = data.skin||""
-    output.value = `playerradio Radio.WePlanted "Flashbang Out! ${colors[1]}${data.username} ${colors[2]}has opened a container and found: ${colors[data.color]} ${data.star?"⋆":""}${data.stattrak?" StatTrak™":""} Karambit | Lore"`
+    output.value = `playerradio Radio.WePlanted "Flashbang Out! ${colors[1]}${data.username} ${colors[2]}has opened a container and found: ${colors[data.color]} ${data.star?"⋆":""}${data.stattrak?" StatTrak™":""} ${data.weapon} | ${data.skin}"`
 }
 
 document.querySelector(".copybtn").onclick = ()=>{
